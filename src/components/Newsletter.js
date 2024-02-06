@@ -26,7 +26,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
         <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
-              <h3>Send me a message for creating something different together.</h3>
+              <h4>Send me a message for creating something different together.</h4>
               {status === 'sending' && <Alert>Sending...</Alert>}
               {status === 'error' && <Alert variant="danger">{message}</Alert>}
               {status === 'success' && <Alert variant="success">{message}</Alert>}
@@ -35,8 +35,9 @@ export const Newsletter = ({ status, message, onValidated }) => {
               <form onSubmit={handleSubmit}>
                 <div className="new-email-bx">
                   <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
+                  
                 </div>
+                <div className="button-bx"><button type="submit">Submit</button></div>
               </form>
             </Col>
           </Row>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.webp";
+import Resume from "../assets/img/Resume.pdf";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -62,7 +63,7 @@ export const Banner = () => {
                   <p class="result">--Results-driven software engineer with a passion for innovation and problem-solving.</p>
                   <p class="result">--Proficient in diverse technologies, experienced in full-stack development,multiple programming languages and frameworks.</p>
                   <p class="result">--Proven track record of delivering high-quality, scalable solutions. Strong problem-solving and collaborative skills.</p>
-                  <a class="resume" href="https://www.altcademy.com/blog/how-to-add-hyperlink-to-button-in-reactjs/">
+                  <a class="resume" href={Resume}>
                   <button class="buttonresume" onClick={()=> prompt('Thanks! for Visiting. Please Enter your Good Name.')} >Resume<ArrowRightCircle size={25} /></button>
                   </a>
               </div>}

@@ -15,7 +15,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <MailchimpForm />
           <Col size={12} sm={6}>
-          <h1 class="yashsisodiya">{"YASH SISODIYA"}</h1>
+          <h1 class="yashsisodiya1">{"YASH SISODIYA"}</h1>
             {/* <img src={logo} alt="Logo" /> */}
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
@@ -24,7 +24,7 @@ export const Footer = () => {
               <a href="https://github.com/yash-a06"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://leetcode.com/yashsisodiya2835/"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Handcrafted by me@2024</p>
+            <p>Developed by me@2024</p>
             <div>
             <div>Hope you have a great<span className='uppercase'> {day} !!!</span></div>
         </div>
