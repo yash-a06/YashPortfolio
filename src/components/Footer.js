@@ -24,7 +24,7 @@ export const Footer = () => {
               <a href="https://github.com/yash-a06"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://leetcode.com/yashsisodiya2835/"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Developed by me@2024</p>
+            <p>Developed by yashsisodiya@2024</p>
             <div>
             <div>Hope you have a great<span className='uppercase'> {day} !!!</span></div>
         </div>
