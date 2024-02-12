@@ -49,7 +49,7 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter4} alt="Image" />
                                 <h5>Python</h5>
-                                <p class="result">(Adanced)</p>
+                                <p class="result">(Advanced)</p>
                             </div>
                             <div className="item">
                                 <img src={meter5} alt="Image" />
@@ -64,12 +64,12 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>HTML</h5>
-                                <p class="result">(Adanced)</p>
+                                <p class="result">(Advanced)</p>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
                                 <h5>CSS</h5>
-                                <p class="result">(Adanced)</p>
+                                <p class="result">(Advanced)</p>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
@@ -87,12 +87,12 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter8} alt="Image" />
                                 <h5>Git</h5>
-                                <p class="result">(Adanced)</p>
+                                <p class="result">(Advanced)</p>
                             </div>
                             <div className="item">
                                 <img src={meter9} alt="Image" />
                                 <h5>Nodejs</h5>
-                                <p class="result">(Adanced)</p>
+                                <p class="result">(Advanced)</p>
                             </div>
                         </Carousel>
 
