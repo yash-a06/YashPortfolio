@@ -7,6 +7,8 @@ import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/prjct1.png";
+import projImg8 from "../assets/img/CoinStats.png";
+import projImg9 from "../assets/img/RPS.png";
 
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -54,6 +56,18 @@ const prjct=[
       description: "MERN",
       imgUrl: projImg7,
   },
+
+  {
+    title: "Crypto-Tracker",
+      description: "MERN",
+      imgUrl: projImg8,
+  },
+
+  {
+    title: "Project-RPS",
+      description: "HCJ",
+      imgUrl: projImg9,
+  },
 ]
  
     
@@ -97,12 +111,35 @@ const prjct=[
                     </div>
                   
                 </div>
+                </Row>
 
-                      
+                <Row >
+                    <div class="imgborder" >
+                    <img src={projImg8} class="mt" alt="projects"></img>
+                    <div class="overlay">
+                    <a href="#">
+                    <div class="text">COIN STATS</div>
+                    </a>
+                    <div class="tx"></div>
+                    </div>
+                  
+                </div>
+                </Row>
+
+                <Row >
+                    <div class="imgborder" >
+                    <img src={projImg9} class="mt" alt="projects"></img>
+                    <div class="overlay">
+                    <a href="#">
+                    <div class="text">RPS</div>
+                    </a>
+                    <div class="tx"></div>
+                    </div>
+                  
+                </div>
+                </Row>
 
 
-                        
-                    </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       
