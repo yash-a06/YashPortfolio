@@ -9,6 +9,11 @@ import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/prjct1.png";
 import projImg8 from "../assets/img/CoinStats.png";
 import projImg9 from "../assets/img/RPS.png";
+import projImg10 from "../assets/img/process.png";
+import projImg11 from "../assets/img/popcorn.png";
+import projImg12 from "../assets/img/search.png";
+import projImg13 from "../assets/img/ttt.png";
+
 
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -68,6 +73,32 @@ const prjct=[
       description: "HCJ",
       imgUrl: projImg9,
   },
+
+  {
+    title: "Schedule-Visualizer",
+      description: "HCJ",
+      imgUrl: projImg10,
+  },
+
+  {
+    title: "popcorn",
+      description: "HCJ",
+      imgUrl: projImg11,
+  },
+
+  {
+    title: "Search-automation",
+      description: "HCJ",
+      imgUrl: projImg12,
+  },
+
+    {
+    title: "ttt",
+      description: "HCJ",
+      imgUrl: projImg13,
+  },
+
+
 ]
  
     
@@ -100,6 +131,46 @@ const prjct=[
                     <Tab.Pane eventKey="first">
                     <h2>Projects</h2>
                     <p class="result">"I take the vision which comes from dreams and apply the magic of Science and Technology, adding the heritage of my profession and my knowledge of languages,frameworks and platforms to create a design." </p>
+
+                    <Row >
+                    <div class="imgborder" >
+                    <img src={projImg10} class="mt" alt="projects"></img>
+                    <div class="overlay">
+                    <a href="#">
+                    <div class="text">Process Scheduling Visualizer</div>
+                    </a>
+                    <div class="tx"></div>
+                    </div>
+                  
+                </div>
+                </Row>
+
+                <Row >
+                    <div class="imgborder" >
+                    <img src={projImg11} class="mt" alt="projects"></img>
+                    <div class="overlay">
+                    <a href="#">
+                    <div class="text">POPCORN</div>
+                    </a>
+                    <div class="tx"></div>
+                    </div>
+                  
+                </div>
+                </Row>
+
+                <Row >
+                    <div class="imgborder" >
+                    <img src={projImg12} class="mt" alt="projects"></img>
+                    <div class="overlay">
+                    <a href="#">
+                    <div class="text">search-automation</div>
+                    </a>
+                    <div class="tx"></div>
+                    </div>
+                  
+                </div>
+                </Row>
+
                     <Row>
                     <div class="imgborder" >
                     <img src={projImg7} class="mt" alt="projects"></img>
@@ -110,8 +181,8 @@ const prjct=[
                     <div class="tx"></div>
                     </div>
                   
-                </div>
-                </Row>
+                    </div>
+                    </Row>
 
                 <Row >
                     <div class="imgborder" >
@@ -131,13 +202,26 @@ const prjct=[
                     <img src={projImg9} class="mt" alt="projects"></img>
                     <div class="overlay">
                     <a href="#">
-                    <div class="text">RPS</div>
+                    <div class="text">Rock Paper Scissor</div>
                     </a>
                     <div class="tx"></div>
                     </div>
                   
                 </div>
                 </Row>
+
+                <Row >
+                <div class="imgborder" >
+                <img src={projImg13} class="mt" alt="projects"></img>
+                <div class="overlay">
+                <a href="#">
+                <div class="text">Tic Tac Toe</div>
+                </a>
+                <div class="tx"></div>
+                </div>
+              
+            </div>
+            </Row>
 
 
                     </Tab.Pane>
@@ -150,7 +234,7 @@ const prjct=[
 
                           <li>
                           <h6 class="KEC">Krishna Engineering College , Abdul Kalam Technical University(Formerly UPTU) , India ---------------(2021 - 2025)</h6>
-                          <p>Bachelor of Technology(B.Tech) in Computer Science Engineering  CGPA : 8.28/10---------------(currently)</p>
+                          <p>Bachelor of Technology(B.Tech) in Computer Science Engineering  CGPA : 8.19/10---------------(currently)</p>
                           </li>
 
                           <li>

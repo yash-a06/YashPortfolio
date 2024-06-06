@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.webp";
-import Resume from "../assets/img/Resume.pdf";
+import Resume from "../assets/img/Yash Resume.pdf";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["<>Web Developer" ,"<>ML Enthusiast","<>Data Science Enthusiast" ];
+  const toRotate = ["</> Full Stack Developer" ,"</> Frontend Developer","</>ML Enthusiast","</>Data Science Enthusiast" ];
   const period = 20;
 
   useEffect(() => {
