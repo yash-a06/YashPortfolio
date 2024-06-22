@@ -13,6 +13,7 @@ import projImg10 from "../assets/img/process.png";
 import projImg11 from "../assets/img/popcorn.png";
 import projImg12 from "../assets/img/search.png";
 import projImg13 from "../assets/img/ttt.png";
+import projImg14 from "../assets/img/DSA.png";
 
 
 
@@ -138,6 +139,19 @@ const prjct=[
                     <div class="overlay">
                     <a href="#">
                     <div class="text">Process Scheduling Visualizer</div>
+                    </a>
+                    <div class="tx"></div>
+                    </div>
+                  
+                </div>
+                </Row>
+
+                  <Row >
+                    <div class="imgborder" >
+                    <img src={projImg14} class="mt" alt="projects"></img>
+                    <div class="overlay">
+                    <a href="#">
+                    <div class="text">DSA Tracker</div>
                     </a>
                     <div class="tx"></div>
                     </div>
